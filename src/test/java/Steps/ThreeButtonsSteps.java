@@ -78,6 +78,7 @@ public class ThreeButtonsSteps {
         driver.findElement(By.name("end")).click();
 
 
+
         //explicity wait - oczekiwanie warunkowe
         WebDriverWait wait = new WebDriverWait(driver,Duration.ofSeconds(5));
         WebElement sprawdzanePole = driver.findElement(By.className("wrap"));

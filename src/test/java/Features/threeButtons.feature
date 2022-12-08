@@ -1,5 +1,6 @@
 Feature: Trzy przyciski
 
+
   Scenario: Poprawne wykonanie zadania
   Given Uzytkownik jest na stronie
     When Uzytkownik pierwszy raz klika w odpowiedni przycisk
